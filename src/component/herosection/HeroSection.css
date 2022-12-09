@@ -1,0 +1,9 @@
+.gray_background{
+    height: 500px;
+    background-color: #EBEFEE;
+    width: 70%;
+    position: absolute;
+}
+.header_container{
+    position: relative;
+}
