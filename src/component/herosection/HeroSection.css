@@ -1,9 +1,45 @@
 .gray_background{
-    height: 500px;
+    height: 750px;
     background-color: #EBEFEE;
     width: 70%;
     position: absolute;
 }
 .header_container{
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heder_content > h1 {
+    font-size: 38px;
+    line-height: 46px;
+    max-width: 500px; 
+}
+.header_img{
+    overflow: hidden;
+    margin: 40px 0;
+    position: relative;
+    /* width: 50%; */
+    height: 600px;
+    width: 560px;
+    object-fit: scale-down;
+}
+/* .header_img > img {
+    object-fit: fill;
+} */
+button{
+   width: 70%;
+   margin-top: 20px;
+   height: 50px;
+   font-size: 20px;
+   font-weight: 600;
+   color: white;
+   background-color: #40ba9b;
+   border: none;
+   border-radius: 3px;
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: #52a791;
 }
