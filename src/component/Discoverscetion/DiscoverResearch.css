@@ -13,7 +13,7 @@
 .discover_content{
     width: 650px;
     height: 300px;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     position: relative;
 }
 .discover_content > h1 {
@@ -26,11 +26,13 @@
     line-height: 30px;
 }
 .input{
-    border: 1px solid red;
+    border: 1px solid gray;
+    border-radius: 3px;
     width: 80%;
-    height: 50px;
+    height: 60px;
     outline: none;
     position: relative;
+    margin-top: 40px;
     /* display: flex; */
 }
 .input > input {
@@ -38,6 +40,9 @@
     margin-left: 50px;
     height: 100%;
     position: absolute;
+    font-size: 20px;
+    border: none;
+    outline: none;
 }
 .icon{
     position: absolute;
@@ -45,8 +50,8 @@
     display: block;
     justify-content: center;
     align-items: center;
-    border: 1px solid blue;
-    height: 50px;
+    /* border: 1px solid blue; */
+    height: 60px;
     width: 50px;
     display: flex;
     font-size: 25px;
