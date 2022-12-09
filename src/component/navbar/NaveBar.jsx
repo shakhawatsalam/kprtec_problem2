@@ -10,8 +10,8 @@ const NaveBar = () => {
                         <img src={logo} alt="" />
                     </div>
                     <div className="nav_items">
-                        <a href="#">Log in</a>
-                        <a href="#">Join for free</a>
+                        <a href="#" className="Log">Log in</a>
+                        <a href="#" className="join">Join for free</a>
                     </div>
 
                 </nav>
