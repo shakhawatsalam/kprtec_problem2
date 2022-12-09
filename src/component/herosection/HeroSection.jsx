@@ -13,7 +13,7 @@ const HeroSection = () => {
               Discover scientific knowledge and stay connected to the world of
               science
             </h1>
-            <button>Join for free</button>
+            <button className="hero_button">Join for free</button>
           </div>
           <div className='header_img'>
               <img src={HeaderImg} alt='' />
