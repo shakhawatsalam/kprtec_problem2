@@ -40,7 +40,7 @@
    border-radius: 3px;
 
 }
-button:hover{
+.hero_button:hover{
     cursor: pointer;
     background-color: #52a791;
 }

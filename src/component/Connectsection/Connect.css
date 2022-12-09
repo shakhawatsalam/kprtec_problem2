@@ -1,3 +1,43 @@
 .connect_container{
+    margin-top: 50px;
+}
+.connect_container{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button_content{
+    border: 1px solid yellow;
+    width: 800px;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    flex-direction: row;
+    /* align-content: flex-end; */
+    border:  1px solid red;
+   
+    /* width: 100%; */
+}
+.buttons > div{
+    /* border: 1px solid yellowgreen; */
+    /* width: 100px; */
+    height: 45px;
+    /* margin: 18px; */
+    /* margin-left: 20px; */
+    background-color: white;
+    /* margin-top: 10px; */
+    border: 1px solid #40ba9b;
+    border-radius: 30px;
+    margin: 10px 10px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    font-size: 15px;
+}
+.buttons > div > a{
+    text-decoration: none;
+    color: #40ba9b;
 }
