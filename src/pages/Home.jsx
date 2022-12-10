@@ -1,4 +1,5 @@
 import React from "react";
+import AdvanceSection from "../component/Advanceyoursection/AdvanceSection";
 import Connect from "../component/Connectsection/Connect";
 import DiscoverResearch from "../component/Discoverscetion/DiscoverResearch";
 import HeroSection from "../component/herosection/HeroSection";
@@ -12,7 +13,8 @@ const Home = () => {
             <HeroSection />
             <DiscoverResearch />
             <Connect />
-            <MeasureImpact/>
+            <MeasureImpact />
+            <AdvanceSection/>
         </>);
 };
 

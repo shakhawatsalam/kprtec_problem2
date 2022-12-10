@@ -1,6 +1,5 @@
 .measure_container{
     margin-top: 5rem;
-    border-bottom: 1px solid #677469;
 }
 .measure_img{
     height: 400px;
@@ -12,15 +11,15 @@
     align-items: center;
 }
 .measure_content{
-    width: 500px;
+    width: 550px;
     height: 300px;
     /* border: 1px solid yellow; */
     position: relative;
 }
 .measure_content > h1 {
     font-size: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 .measure_content > p{
-    line-height: 2rem;
+    line-height: 1.5rem;
 }
