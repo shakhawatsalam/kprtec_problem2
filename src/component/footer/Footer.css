@@ -28,25 +28,25 @@
     display: flex;
     align-items: center;
     background-color: white;
-    width: 588px;
+    width: 600px;
     /* border: 1px solid red; */
-    height: 250px;
+    height: 280px;
 }
 .Scontent{
     /* border: 1px solid blue; */
     width: 80%;
     height: 200px;
-    margin: 20px;
+    margin: 15px;
 }
 .Scontent > h3{
     margin-top: 2rem;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
 
 }
 .Scontent > p {
     line-height: 1.5rem;
     /* border: 1px solid red; */
-    width: 87%;
+    width: 100%;
     margin-bottom: 1rem;
 }
 .Scontent > button {
@@ -62,8 +62,8 @@
     background-color: #d9fff1;
 }
 .Simg{
-    height: 250px;
-    width: 300px;
+    height: 100%;
+    width: 230px;
 }
 .Simg > img{
     width: 100%;

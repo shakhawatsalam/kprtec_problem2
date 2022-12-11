@@ -29,10 +29,10 @@ const Footer = () => {
                   <img src={MarketingImg} alt='' />
                 </div>
                 <div className='Scontent'>
-                  <h3>Scientific Recruitment</h3>
+                  <h3>Marketing Solutions</h3>
                   <p>
-                    Hire qualified researchers and build the best teams in
-                    science.
+                    Grow your brand's impact in the scientific community with
+                    the world's leading network for scientists.
                   </p>
                   <button>Find out more</button>
                 </div>
