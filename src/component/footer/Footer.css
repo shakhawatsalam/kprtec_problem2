@@ -1,7 +1,7 @@
 .footer_container {
     margin-top: 10rem;
     background-color: #EBEFEE;
-    margin-bottom: 5rem;
+    padding-bottom: 5rem;
 }
 .footer_content{
     /* margin-top: 5rem; */
@@ -69,24 +69,53 @@
     width: 100%;
     height: 100%;
 } 
+.line{
+    border-bottom: 1px solid gray;
+    margin-top: 3rem;
+}
 
 .About_content{
   
-    margin-top: 5rem;
+    margin-top: 4rem;
     background-color: #EBEFEE;
     /* border: 1px solid red; */
-    margin-bottom: 5rem;
+    /* margin-bottom: 5rem; */
     display: flex;
     justify-content: space-between;
     
 }
 .about_us{
-    border: 1px solid red;
-    width: 450px;
+    /* border: 1px solid red; */
+    width: 700px;
 }
 .about_us > a{
-    margin-left: 0.5rem;
+    margin-right: 1rem;
     text-decoration: none;
     font-size: 13px;
+    color: grey;
     /* border: 1px solid red; */
+}
+.Copy_right{
+    float: right;
+    /* border: 1px solid red; */
+    width: 700px;
+}
+.Copy_right > a {
+    float: right;
+    margin-right: 1rem;
+    text-decoration: none;
+    font-size: 13px;
+    color: grey;
+}
+.Copy_right > p{
+    margin-top: 1rem;
+    float: right;
+    font-size: 14px;
+    color: grey;
+}
+.Copy_right > a:hover{
+    text-decoration: underline;
+}
+.about_us > a:hover{
+    text-decoration: underline;
 }
